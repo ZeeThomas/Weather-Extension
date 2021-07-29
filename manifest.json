@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Weather Extension",
+  "version": "1.0",
+  
+  "content_scripts": 
+  [
+    {
+      "matches": [
+        "google.com"
+      ],
+      "js": ["script.js, p5.min.js, p5.collided2d.js"]
+    }
+  ],
+  "description": "This extension shows a Google Image search result for the current page"
+  
+}
